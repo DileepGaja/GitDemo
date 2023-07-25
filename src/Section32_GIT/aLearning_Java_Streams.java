@@ -116,6 +116,8 @@ public class aLearning_Java_Streams
     	
     	List <Integer> value=numbers.stream().distinct().sorted().collect(Collectors.toList());
     	System.out.println("the 3rd index is "+value.get(3));
+    	System.out.println("the 2nd index is "+value.get(2));
+    	System.out.println("the 1st index is "+value.get(1));
     }
     
 }
