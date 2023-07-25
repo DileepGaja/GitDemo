@@ -63,4 +63,14 @@ public class aLearning_Java_Streams
 
     }
     
+    @Test
+    public void olo()
+    {
+    	
+    	System.out.println("Iphone");
+    	System.out.println("LG");
+    	
+
+    }
+    
 }
