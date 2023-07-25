@@ -106,6 +106,8 @@ public class aLearning_Java_Streams
     	List<String> ls=Stream.of("Dileep","Abhi","Boss","Aon","Aaxmi").filter(s->s.endsWith("i")).map(s->s.toUpperCase())
     	.collect(Collectors.toList());
     	System.out.println("the name is" +ls.get(0));
+    	System.out.println("the name is" +ls.get(1));
+    	System.out.println("the name is" +ls.get(2));
     	
     	//print unique numbers from array
     	//sort the array--> get 3rd index
